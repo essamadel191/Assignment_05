@@ -169,7 +169,84 @@
 
             #region Functions Q2
 
+            //static void CalculateCirle(double radius , out double area , out double circum)
+            //{                 
+            //    area = 3.14 * radius * radius;
+            //    circum = 2 * 3.14 * radius;
+            //}
 
+            //Console.Write($"Enter the radius of the circle: ");
+            //double radius = double.Parse(Console.ReadLine());
+
+            //CalculateCirle(radius, out double area, out double circum);
+
+            //Console.WriteLine($"Area : {area} and Circumference : {circum}");
+
+            #endregion
+
+            #region Console Project
+
+            //int[] studnetGrades = new int[5];
+
+            //for (int i = 0; i < studnetGrades.Length; i++)
+            //{
+            //    Console.Write($"Enter Score for Student {i + 1}: ");
+            //    studnetGrades[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// a
+            //static Grade GetGrade(int grade)
+            //{
+            //    if (grade >= 90)
+            //        return Grade.A;
+            //    else if (grade >= 80)
+            //        return Grade.B;
+            //    else if (grade >= 70)
+            //        return Grade.C;
+            //    else if (grade >= 60)
+            //        return Grade.D;
+            //    else
+            //        return Grade.F;
+            //}
+
+            //// b
+            //static decimal CalculateAverage(int[] grades)
+            //{
+            //    int sum = 0;
+            //    for (int i = 0; i < grades.Length; i++)
+            //    {
+            //        sum += grades[i];
+            //    }
+            //    return (decimal)sum / grades.Length;
+            //}
+
+
+
+            //// c
+            //static void GetMinMax(int[] grades ,out int min , out int max)
+            //{
+            //    min = grades[0];
+            //    max = grades[0];
+            //    for (int i = 0;i < grades.Length;i++)
+            //    {
+            //        if(grades[i] < min) min = grades[i];
+            //        if(grades[i] > max) max = grades[i];
+            //    }
+            //}
+
+            //decimal averageGrade = CalculateAverage(studnetGrades);
+            //GetMinMax(studnetGrades, out int minScore, out int maxScore);
+
+            //Console.WriteLine("\n--- Report ---");
+            //for (int i = 0; i < studnetGrades.Length; i++)
+            //{
+            //    Grade grade = GetGrade(studnetGrades[i]);
+            //    Console.WriteLine($"Student {i + 1}: {studnetGrades[i]} -> Grade : {grade}");
+            //}
+
+            //Console.WriteLine($"\nAverage: {averageGrade}");
+            //Console.WriteLine($"Minimum Score: {minScore}");
+            //Console.WriteLine($"Highest Score: {maxScore}");
 
             #endregion
         }
